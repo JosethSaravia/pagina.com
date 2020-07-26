@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Reloj*/
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+    padding: 1px;
+}
+
+.widget{
+    display: flex;
+    line-height: 1em;
+    color: #373B44;
+    cursor: default;
+}
+
+.reloj{
+    display: flex;
+    line-height: 1em;
+    color: #4286f4;
+}
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    background: #fff;
+    box-shadow:  0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fecha-hora{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu{
+    height: 60px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu nav ul li a{
+    color: #373B44;
+    text-decoration: none;
+}
+
+.container-cover{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 0px;
+    background-image: url(../Img/6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+    opacity: 0.8;
+}
+
+/*Botones*/
+body{
+    background: #E0E0F8;
+}
+.container-botom{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box{
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+    transition: all 300ms;
+}
+
+.box .icon,
+.box h4,
+.box p{
+    position: relative;
+    z-index: 1;
+    transition: all 300ms;
+}
+
+.box .icon{
+    font-size: 40px;
+    color: #373B44;
+    transform: translateY(30px);
+}
+
+.box:hover .icon{
+    color: #fff;
+    font-size: 30px;
+    transform: translateX(0);
+}
+
+.box h4,
+.box p{
+    margin-top: 10px;
+    color: #373B44;
+}
+
+.box h4{
+    font-size: 30px;
+    transform: translateY(30px);
+}
+
+.box:hover h4{
+    transform: translateY(0);
+    color: #fff;
+} 
+
+.box p{
+    font-size: 14px;
+    transform: translateY(100px);
+    transition: all 300ms;
+    color: #fff;
+}
+
+.box:hover p{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.box .background-hover{
+    width: 100px;
+    height: 100px;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+}
+
+.box:hover .background-hover{
+    width: 400px;
+    height: 400px;
+    top: -70px;
+    left: -70px;
+}
+
+@media screen and (max-width: 700px){
+
+    .fecha-hora{
+        padding: 10px;
+    }
+    .container-box{
+        display: flex;
+        
+    }
+
+    .box{
+        margin: 15px;
+    }
+
+    .widget p{
+        display: inline-block;
+        line-height: 1em;
+        padding: 0px;
+    }
+}

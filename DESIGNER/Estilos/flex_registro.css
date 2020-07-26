@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px){
+    .container-all{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .container-form,
+    .container-table{
+        margin: 15px;
+        width: 100%;
+        border-radius: 8px;
+        
+    }
+
+    input[type="submit"]{
+        margin-bottom: 20px;
+    }
+
+    .encabezadoss{
+        padding: 20px;
+    }
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="Estilos/estiloinicio.css">
+    <link rel="stylesheet" href="Estilos/adaptable.css">
+    <script src="https://kit.fontawesome.com/c2f37bb404.js" crossorigin="anonymous"></script>
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <!--Encabezado-->
+        <div class="container-cover">
+            <div class="capa"></div>
+        </div>
+        <!--Reloj-->
+        <div class="header-content">
+
+            <div class="fecha-hora">
+                <div class="widget">
+                    <div class="fecha">
+                        <p id="diaSemana" class="diaSemana"></p>
+                        <p id="dia" class="dia"></p>
+                        <p>de</p>
+                        <p id="mes" class="mes"></p>
+                        <p>del</p>
+                        <p id="year" class="year"></p>
+                        <p>|</p>
+                    </div>
+                    <div class="reloj">
+                        <p id="horas" class="horas"></p>
+                        <p>:</p>
+                        <p id="minutos" class="minutos"></p>
+                        <div class="caja-segundos">
+                            <p id="ampm" class="ampm"></p>
+                            <p id="segundos" class="segundos"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-sign-out-alt"></i>Cerrar Sesion</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+        <script src="js/reloj.js"></script>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!--Botonoes-->
+
+    <div class="container-all" id="move-content">
+        <div class="container-botom">
+
+            <div class="container-box">
+                <div class="box">
+                    <a href="Registro.php">
+                        <i class="fas fa-user-plus icon"></i>
+
+                        <h4 class="title">Registro</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="background-hover"></div>
+                    </a>
+                </div>
+
+
+
+                <div class="container-box">
+                    <div class="box">
+                        <a href="ControlParticipaciones.php">
+                            <i class="fas fa-user-check icon"></i>
+
+                            <h4 class="title">Participaciones</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="background-hover"></div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/adaptable.js"></script>
+</body>
+
+</html>

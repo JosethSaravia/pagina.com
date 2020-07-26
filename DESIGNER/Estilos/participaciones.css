@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow:  0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezadoss{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #373B44;
+    line-height: 1em;
+    cursor: default;
+}
+
+
+.menu{
+    height: 60px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu nav ul li a{
+    color: #373B44;
+    text-decoration: none;
+}
+
+.container-cover{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    background-image: url(../Img/6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+    opacity: 0.8;
+}
+
+
+body{
+    background: #E0E0F8;
+}
+table thead{
+    background-color: #373B44;   
+    
+    color: #fff;    
+}
+
+.container-all{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    
+    
+}
+
+
+.container-table-progress{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+tbody tr td{
+    color: #7a7a7a;
+}
+
+#example_info{
+    color: #7a7a7a;
+}
+.page-item.active .page-link{
+    background-color: #373B44;
+    color: #fff;
+    border-color: black; 
+}
+
+.icon{
+    width: 50%;
+    text-align: center;
+    color: #373B44;
+}
+
+
+.ancho{
+    width: 400px;
+}
+
+.icon-p{
+    width: 100%;
+    text-align: center;
+    color: #373B44;
+}
+
